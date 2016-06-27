@@ -11,9 +11,17 @@ for(var i = 1; i < 101; i++)
   {
     li.textContent = "FizzBuzz";
   }
+  else if
+  {
+    li.textContent = "Fizz";
+  }
+  else if
+  {
+    li.textContent = "Buzz";    
+  }
   else
   {
-  li.textContent = i;
+    li.textContent = i;
   }
   document.getElementById('list').appendChild(li);
 }
