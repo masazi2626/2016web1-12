@@ -4,9 +4,16 @@ document.getElementById('form').onsubmit = function()
   return false;
 };
 
-for(var i = 1; i < 100; i++)
+for(var i = 1; i < 101; i++)
 {
   var li = document.createElement('li');
+  if(i%15==0)
+  {
+    li.textContent = "FizzBuzz";
+  }
+  else
+  {
   li.textContent = i;
+  }
   document.getElementById('list').appendChild(li);
 }
