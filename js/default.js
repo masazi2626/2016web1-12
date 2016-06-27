@@ -11,11 +11,11 @@ for(var i = 1; i < 101; i++)
   {
     li.textContent = "FizzBuzz";
   }
-  else if
+  else if(i%3==0)
   {
     li.textContent = "Fizz";
   }
-  else if
+  else if(i%5==0)
   {
     li.textContent = "Buzz";    
   }
